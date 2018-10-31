@@ -1,9 +1,42 @@
+.white, .white a{
+    color: #fff;
+}
+
+.blue {
+    color:blue;
+}
+.green {
+    color:green;
+}
+.purple {
+    color:purple;
+}
+#address {
+    word-spacing: .1rem;
+    letter-spacing: .5rem;
+    line-height: 1.2rem;
+}
+.portfolio-item {
+    background-color: lightgray;
+    border: #333;
+    padding: 1.2rem;
+    margin: 1.2rem;
+    font-size: 2rem;
+    display: inline;
+}
+.center {
+    text-align: center;
+}
+
+.big {
+    font-size: 5rem;
+}
 body {
     margin: 0px;
     font-family: 'Oswald', sans-serif;
  }
  
- nav {
+ .nav {
     background-color:#000;
     padding: 1.5rem;
  }
@@ -13,11 +46,11 @@ body {
     margin: 1.5rem;
     color: white;
  }
- main {
+ .main {
     margin: 0 auto;
     display:block;
  }
- p{
+ .default-p{
      margin: 0 auto;
      padding: 5%;
  }
@@ -26,7 +59,7 @@ body {
     margin: 0px;
  }
  
- section {
+ .section {
     background-color: #efefef;
     width: 500px;
     margin: 0 auto;
@@ -37,7 +70,7 @@ body {
     min-height: 100%;
 }
 
- footer {
+.footer {
     background-color: #333;
     position: absolute;
  }
